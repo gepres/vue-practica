@@ -71,7 +71,7 @@ import interact from "interactjs";
     onDragEnd: function(event) {
       setTimeout(() => {
          this.$store.state.btnCart = false
-      }, 100);
+      }, 1);
       console.log('soltar',this.$store.state.btnCart);
     }
   }
