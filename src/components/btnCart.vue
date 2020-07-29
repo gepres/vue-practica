@@ -50,10 +50,10 @@ import interact from "interactjs";
               const dataY = target.getAttribute('data-y');
               const initialX = parseFloat(dataX) || 0;
               const initialY = parseFloat(dataY) || 0;
-
               const deltaX = event.dx;
               const deltaY = event.dy;
 
+              console.log(deltaX);
               const newX = initialX + deltaX;
               const newY = initialY + deltaY;
 
@@ -71,7 +71,7 @@ import interact from "interactjs";
     onDragEnd: function(event) {
       setTimeout(() => {
          this.$store.state.btnCart = false
-      }, 500);
+      }, 100);
       console.log('soltar',this.$store.state.btnCart);
     }
   }
