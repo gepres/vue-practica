@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Interact.js</h1>
+    <h1>Interact.js 3</h1>
     <btnCart />
     <!-- <v-btn  ref="myDraggable" id="idmove" class="mx-2 onmove" fab dark large color="cyan">
       <v-icon dark>fas fa-shopping-cart</v-icon>
